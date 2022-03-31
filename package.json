@@ -1,0 +1,26 @@
+{
+    "name": "labb-rest-api",
+    "version": "1.0.0",
+    "description": "fullstack course labb",
+    "main": "script.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "raise": "nodemon script.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "module",
+        "url": "git+https://github.com/qimlonnegren/rest-api.git"
+    },
+    "author": "Qim L",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/qimlonnegren/rest-api/issues"
+    },
+    "homepage": "https://github.com/qimlonnegren/rest-api#readme",
+    "dependencies": {
+        "express": "^4.17.3",
+        "nodemon": "^2.0.15",
+        "pg": "^8.7.3"
+    }
+}
